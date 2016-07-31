@@ -1,0 +1,144 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: arial, sans-serif;
+}
+
+.navbar {
+  color: #f0f0f0;
+  background: #58595d;
+  text-align: center;
+  position: relative;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.blyp-icon {
+  height: 2rem;
+  align-items: center;
+  height: 100%;
+  font-size: 1.1rem;
+  position: absolute;
+  left: 0;
+}
+
+.blyp-icon:hover {
+  cursor: default;
+}
+
+.blyp-icon-item {
+  padding: 1rem;
+  height: 100%;
+  line-height: 2rem;
+}
+
+.company-name {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.company-name:hover {
+  cursor: default;
+}
+
+.nav {
+  display: flex;
+  font-size: 1.1rem;
+  align-items: stretch;
+  position: absolute;
+  right: 3.5rem;
+  top: 0;
+  height: 100%;
+}
+
+.v-flex {
+  display: flex;
+  align-items: center;
+}
+
+.v-flex:hover {
+  background: black;
+  cursor: pointer;
+}
+
+.item {
+  padding: .5rem;
+}
+
+.profile {
+  background: #820024;
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  top: 1rem;
+  right: 1rem;
+}
+
+.profile:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 750px) {
+    html {
+    font-size: 14px;
+  }
+  .navbar {
+    text-align: left;
+  }
+  .company-name {
+    margin-left: 5rem;
+  }
+}
+
+@media (max-width: 550px) {
+    html {
+    font-size: 14px;
+  }
+  .company-name {
+    text-align: center;
+    margin: 0;
+
+  }
+  .nav {
+    display: flex;
+    position: static;
+  }
+  .v-flex {
+    flex: 1 1 0;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+    html {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 750px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 825px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
